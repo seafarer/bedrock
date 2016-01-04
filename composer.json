@@ -46,7 +46,8 @@
     "wp-sync-db/wp-sync-db-media-files": "1.1.5",
     "seafarer/acf-sync": "dev-master",
     "yoast/wordpress-seo": "~3.0.0",
-    "x-team/wp-cli-ssh": "dev-master"
+    "x-team/wp-cli-ssh": "dev-master",
+    "wpackagist-plugin/worker": "~4.1.26"
   },
   "extra": {
     "installer-paths": {
