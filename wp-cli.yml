@@ -12,12 +12,12 @@ ssh:
       - plugin install
       - core multisite-convert
 
-    staging:
-      cmd: ssh %pseudotty% wps %cmd%
-      url: SITE.dev.wps.host
-      path: /home/wpshost/public_html/SITE.dev/current
-      disabled_commands:
-        - db drop
-        - db reset
-        - plugin install
-        - core multisite-convert
+  staging:
+    cmd: ssh %pseudotty% wps %cmd%
+    url: SITE.dev.wps.host
+    path: /home/wpshost/public_html/SITE.dev/current
+    disabled_commands:
+      - db drop
+      - db reset
+      - plugin install
+      - core multisite-convert
