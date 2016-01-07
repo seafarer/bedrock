@@ -6,6 +6,10 @@ set :wp_email, "USER EMAIL" # The admin email address
 set :wp_sitename, "SITE TITLE" # The site title
 set :wp_localurl, "http://local.url" # Your local environment URL
 
+# WP-CLI urls
+# set :wpcli_remote_url, "http://one.dev.wps.host"
+# set :wpcli_local_url, "http://one.dev"
+
 # Use :debug for more verbose output when troubleshooting
 set :log_level, :info
 
