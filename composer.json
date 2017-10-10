@@ -38,7 +38,7 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.8.2",
     "oscarotero/env": "^1.1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/akismet": "^3.2",
     "wpackagist-plugin/ninja-forms": "^3.0",
     "wpackagist-plugin/ewww-image-optimizer": "^3.1",
